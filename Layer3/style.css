@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* header */
+.navbar-brand .logo{
+    width: 50px;
+    height: 50px;
+    background: #e3c800;
+    border-radius: 100%;
+}
+.navbar-brand .shop-name{
+    font-weight: bold;
+    padding: 15px;
+}
+.container-fluid{
+    background: #f5f5f5;
+    border: 1px solid #6d6d6d;
+}
+a.navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a.nav-link{
+    font-weight: 500;
+    margin: 15px;
+}
+.navbar-nav a:hover{
+    background: #dae8fc;
+    border-radius: 10px;
+}
+ul.navbar-nav.ms-auto {
+    display: flex    ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* end header */
+
+/* content */
+.image-placeholder {
+    background-color: #dc99b7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85%;
+    color: #000;
+    font-size: 20px;
+    border: 1px solid #8f8f8f;
+    margin-bottom: 15px;
+}
+.btn-share{
+    background: #f8cecc;
+    border: 1px solid #ca7673;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+}
+.btn-download{
+    background: #e3c800;
+    border: 1px solid #bea300;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.left-detail-view {
+    padding-right: 0 !important;
+    display: flex;
+    justify-content: center;
+   
+}
+.left-detail-view .btn-view{
+    width: 100%;
+}
+.btn-view{
+    background: #1ba1e2;
+    border: 1px solid #0c85c6;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #dae8fc;
+}
+.left-btn{
+    padding: 0 !important;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.the-loai{
+    display: flex;
+    margin-top: 15px;
+}
+.the-loai p{
+    border: 1px solid #000;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.noidung{
+    border: 1px solid #000;
+    padding: 15px;
+}
+.right-content p{
+    font-size: 18px;
+}
+.right-content .ten-phim{
+    font-weight: bold;
+}
+.right-content .time{
+    color: #5fa31a;
+}
+.star-rating { 
+    color: #d4d200;  
+    /* position: absolute; */
+    top: 15px;
+    right: 15px;
+}
+.color-text{
+    color: #0000cc;
+}
+.actor-name{
+    color:#4d9900 ;
+    font-size: 15px;
+}
+.circle-image img{
+    width: 100%;
+    height: auto;
+
+}
+@media (max-width: 576px) {
+    .right-content{
+        margin-top: 150px !important;
+    }
+    .left-detail-view{
+        margin: 15px 0 15px 0 !important;
+    }
+    .left-content{
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .right-content{
+        margin-top: 150px !important;
+    }
+    .left-content{
+        padding-left: 5% !important;
+    }  
+}
+@media (max-width: 992px) {
+    .left-btn {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .left-btn .btn-share{
+        margin-bottom: 5px;
+    }
+}
